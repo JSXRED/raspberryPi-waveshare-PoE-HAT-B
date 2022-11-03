@@ -1,0 +1,34 @@
+{
+  "name": "raspberrypi-waveshare-poe-hat-b",
+  "version": "1.0.0",
+  "description": "Controlling the POE-HAT from waveshare via Node.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JSXRED/raspberryPi-waveshare-PoE-HAT-B.git"
+  },
+  "keywords": [
+    "waveshare",
+    "poe",
+    "hat",
+    "nodejs",
+    "javascript",
+    "cooling",
+    "raspberry",
+    "pi"
+  ],
+  "author": "JSXRED",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JSXRED/raspberryPi-waveshare-PoE-HAT-B/issues"
+  },
+  "homepage": "https://github.com/JSXRED/raspberryPi-waveshare-PoE-HAT-B#readme",
+  "dependencies": {
+    "i2c-bus": "^5.2.2",
+    "oled-font-5x7": "^1.0.3",
+    "oled-i2c-bus": "^1.0.12"
+  }
+}
