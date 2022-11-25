@@ -12,6 +12,12 @@ To keep my wish of a CPU temperature of around 50C° the fan is switched on from
 
 # Prerequisites 
 
+## Install system dependencies
+
+```bash
+sudo apt install gcc git g++
+```
+
 ## Install node.js on your raspebrry pi
 
 ```bash
@@ -39,6 +45,19 @@ When mounting the Waveshare POE HAT, you will need to set the switch to P0 so we
 > *  EN for an automatic start of the fan when booting the Raspberry PI.
 > * P0 to be able to program the fan without automatic start.
 
+## Install npm Packages
+
+Run the following command in the source folder.
+
+```bash
+npm install i2c-bus oled-i2c-bus oled-font-5x7 --save
+```
+
+Alternative
+
+```bash
+npm install
+```
 
 # Check temperature continuously (RUN)
 
